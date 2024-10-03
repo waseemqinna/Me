@@ -3,91 +3,78 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Project Title</title>
+    <title>Waseem Qinna - Waisemthecrab</title>
     <style>
         body {
             font-family: Arial, sans-serif;
             line-height: 1.6;
-            margin: 20px;
-            padding: 20px;
-            background-color: #f9f9f9;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
         }
-        h1, h2, h3 {
-            color: #333;
+        header, footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1em 0;
         }
-        pre {
-            background-color: #eee;
-            padding: 10px;
-            border-radius: 5px;
-            overflow-x: auto;
+        nav {
+            background: #555;
+            color: #fff;
+            padding: 1em;
+            text-align: center;
         }
-        code {
-            font-family: monospace;
-            background-color: #eee;
-            padding: 2px 4px;
-            border-radius: 3px;
-        }
-        ul {
-            margin: 10px 0;
-        }
-        a {
-            color: #007bff;
+        nav a {
+            color: #fff;
+            margin: 0 1em;
             text-decoration: none;
         }
-        a:hover {
-            text-decoration: underline;
+        .container {
+            padding: 2em;
+        }
+        .section {
+            margin-bottom: 2em;
+        }
+        .section h2 {
+            color: #333;
         }
     </style>
 </head>
 <body>
-
-<h1>Your Project Title</h1>
-
-<p>A brief description of your project goes here. Explain what the project is about, its purpose, and any relevant context.</p>
-
-<h2>Table of Contents</h2>
-<ul>
-    <li><a href="#installation">Installation</a></li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
-</ul>
-
-<h2 id="installation">Installation</h2>
-<p>Instructions on how to install your project.</p>
-<pre><code># Clone the repository
-git clone https://github.com/yourusername/yourproject.git
-
-# Change directory
-cd yourproject
-
-# Install dependencies
-npm install
-</code></pre>
-
-<h2 id="usage">Usage</h2>
-<p>Provide examples on how to use your project. This could include code snippets, command-line examples, or screenshots.</p>
-<pre><code>const exampleFunction = require('yourmodule');
-
-// Example usage
-exampleFunction('Hello, World!');
-</code></pre>
-
-<h2 id="contributing">Contributing</h2>
-<p>Guidelines for contributing to your project. Include any necessary steps for submitting issues, pull requests, or code style guidelines.</p>
-<ul>
-    <li>Fork the repository</li>
-    <li>Create a new branch for your feature or bug fix</li>
-    <li>Commit your changes</li>
-    <li>Push to the branch</li>
-    <li>Submit a pull request</li>
-</ul>
-
-<h2 id="license">License</h2>
-<p>This project is licensed under the MIT License - see the <a href="LICENSE">LICENSE</a> file for details.</p>
-
-<h2>Contact</h2>
-<p>If you have any questions, feel free to reach out via email: <a href="mailto:yourname@example.com">yourname@example.com</a></p>
-
+    <header>
+        <h1>Waseem Qinna - Waisemthecrab</h1>
+    </header>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#career">Career</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <div class="container">
+        <section id="about" class="section">
+            <h2>About Waseem Qinna</h2>
+            <p>Waseem Qinna, also known by his nicknames Waisemthecrab and Minkit, is a multifaceted individual known for his contributions in various fields. His unique approach and innovative ideas have made him a notable figure in his community.</p>
+        </section>
+        <section id="career" class="section">
+            <h2>Career</h2>
+            <p>Waseem has had a diverse career, engaging in multiple projects that span across different industries. His work is characterized by a blend of creativity and technical expertise, making him a valuable asset in any team.</p>
+        </section>
+        <section id="projects" class="section">
+            <h2>Projects</h2>
+            <p>Throughout his career, Waseem has been involved in numerous projects. Some of his notable projects include:</p>
+            <ul>
+                <li>Project A: A groundbreaking initiative that revolutionized the way we approach problem-solving.</li>
+                <li>Project B: An innovative project that brought new insights into the field of technology.</li>
+                <li>Project C: A collaborative effort that showcased Waseem's ability to work effectively in a team.</li>
+            </ul>
+        </section>
+        <section id="contact" class="section">
+            <h2>Contact</h2>
+            <p>If you would like to get in touch with Waseem Qinna, you can reach out to him via his social media profiles or through his professional email.</p>
+        </section>
+    </div>
+    <footer>
+        <p>© 2024 Waseem Qinna - Waisemthecrab</p>
+    </footer>
 </body>
 </html>
